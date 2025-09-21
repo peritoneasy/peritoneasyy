@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PeritonEasy | Development</title>
+  <style>
+    :root{--primary:#0a7e9e;--primary-dark:#055468;--light-bg:#f9f9f9;--text:#222;}
+    *{margin:0;padding:0;box-sizing:border-box;}
+    body{font-family:'Segoe UI',Roboto,Arial,sans-serif;background:var(--light-bg);color:var(--text);line-height:1.6;}
+    header{background:var(--primary);color:white;padding:3rem 1rem;text-align:center;}
+    nav{background:white;display:flex;justify-content:center;gap:2rem;padding:1rem;box-shadow:0 2px 6px rgba(0,0,0,0.1);position:sticky;top:0;}
+    nav a{color:var(--primary);font-weight:bold;text-decoration:none;transition:color 0.2s ease;}
+    nav a:hover{color:var(--primary-dark);}
+    .container{max-width:1000px;margin:2rem auto;padding:0 1rem;}
+    .card{background:white;border-radius:12px;padding:2rem;margin-bottom:2rem;box-shadow:0 2px 8px rgba(0,0,0,0.08);}
+    .card h2{color:var(--primary);margin-bottom:1rem;}
+    img{max-width:100%;border-radius:12px;margin-top:1rem;}
+    footer{background:var(--primary-dark);color:white;text-align:center;padding:1.5rem;margin-top:3rem;}
+  </style>
+</head>
+<body>
+  <header><h1>Development</h1><p>Workflow, Prototype, and Design Inputs</p></header>
+  <nav>
+    <a href="index.html">Overview</a>
+    <a href="home.html">Home</a>
+    <a href="development.html">Development</a>
+    <a href="market.html">Market & Strategy</a>
+    <a href="references.html">References</a>
+    <a href="team.html">Team</a>
+  </nav>
+  <div class="container">
+    <div class="card" id="workflow">
+      <h2>Workflow</h2>
+      <p>Patients receive monthly lab tests. Results are uploaded to the PeritonEasy platform where algorithms suggest personalized dialysate formulations. Physicians approve adjustments before dispensing.</p>
+      <img src="images/workflow-placeholder.jpg" alt="Workflow illustration placeholder" />
+    </div>
+    <div class="card" id="prototype">
+      <h2>Prototype</h2>
+      <p>The prototype integrates refillable canisters, solenoid valves, ultrasonic sensors, and a sterile buffer system. The design demonstrates feasibility for accurate mixing and safety.</p>
+      <img src="images/prototype-placeholder.jpg" alt="Prototype render placeholder" />
+    </div>
+    <div class="card" id="design-inputs">
+      <h2>Design Inputs</h2>
+      <p>Design requirements include sterility assurance, precise volumetric accuracy, patient usability, integration with clinical workflows, and regulatory compliance with ISO standards.</p>
+    </div>
+  </div>
+  <footer><p>© 2025 PeritonEasy Team | Georgia Institute of Technology</p></footer>
+</body>
+</html>
